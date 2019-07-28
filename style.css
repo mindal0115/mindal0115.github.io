@@ -1,0 +1,71 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size:10px;
+} 
+
+body{
+    min-width: 1060px;
+    font-size:1.8rem;
+}
+.header{ 
+    background: gray;
+    height: 72px;
+}
+.container{
+    max-width: 1400px;
+    background: lightblue;
+    margin: 0 auto 0 auto;
+    padding:0 20px;
+    position:relative;
+}
+.logo{
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0;
+}
+.nav{
+    text-align: right;
+}
+ul{
+    margin:0;
+}
+.list{
+    margin:0;
+}
+.list-item{
+    display: inline-block;
+}
+
+
+.main{
+    background: lime;
+}
+.hero_section{
+    background: aqua;
+}
+
+.main_content{
+    background: blue;
+    float:left;
+    width:70%
+}
+.side_content{
+    background: pink;
+    float:right;
+    width: 30%
+}
+
+.content_info{
+    background:green;
+}
+.links{
+    background:lightgreen;
+}
+.footer{
+    background: purple;
+}
